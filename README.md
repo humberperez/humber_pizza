@@ -1,1 +1,1 @@
-# humber_pizza
+# integrantes: Perez y Petitfour
