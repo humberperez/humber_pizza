@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza_Ya_web</title>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <h2>SubTitulo</h2>
+    <h3>Pedidos</h3>
+
+    <ul>
+        <li><a href="{{ url_for('mostrar_pedidos') }}">Pedidos</a></li>
+    </ul>
+
+    <p>todo el texto que quiera</p>
+
+    Salto de linea <br/>
+    todo el texto que quiera
+    <hr>
+    <h1>lista_sin_nros</h1>
+    <ul>
+        <li>muzza</li>
+        <li>4 quesos</li>
+        <li>peperoni</li>
+    </ul>
+    <h1>lista_con_nros</h1>
+
+    <ol>
+        <li>muzza</li>
+        <li>4 quesos</li>
+        <li>peperoni</li>
+        <li>con anana</li>
+    </ol>
+    <hr/>
+    <h1>Imagenes</h1>
+    <img width="150px" alt="Esto es una pizza" src="https://www.eluniverso.com/resizer/5N9j1EK0-8MMn30GXOMaL_y6GMI=/809x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/M7ROUAC34ZCI7AU3WN7GF4TAUY.jpg" />
+    <img width="150px" alt="Cocinera" src="https://cdn1.suno.ai/image_8653b88b-3bc2-46dd-bb48-42dc28831d0f.png" />
+</body>
+</html>

@@ -1,0 +1,11 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    
+}

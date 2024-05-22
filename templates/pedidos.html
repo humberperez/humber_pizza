@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Pizza_Ya_web</title>
+</head>
+<body>S
+    <h1>Pedidos</h1>
+    <h2>Lista de pedidos </h2>
+    <img width="190px" alt="Esto es una pizza" src="https://imgs.search.brave.com/xn9Y1pcd9dTvrWhLGwkycrVvAbgNKicMILOWeHCxeQE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLmt5/bS1jZG4uY29tL3Bo/b3Rvcy9pbWFnZXMv/bmV3c2ZlZWQvMDAx/LzM2NC8yMTkvMzdj/LmpwZw" />
+   <h1>Formularios</h1>
+   <form action = "{{ url_for('guardar_pedido') }}" method="post">
+
+    <label>Nombre</label>
+    <input type="text" name="nombre" required />
+
+    <label>Apellido</label>
+    <input type="text" name="apellido" required />
+
+    <label>Tipo de pizza</label>
+    <input type="text" name="tipo_pizza" required />
+
+    <label>Contacto</label>
+    <input type="text" name="contacto" required />
+    
+    <label>direccion</label>
+    <input type="text" name="direccion" required />
+
+    <label>Opciones de envío</label>
+    <select name="envio">
+        <option value="Envio">Envio</option>
+        <option value="No Envio">No Envio</option>
+    </select>
+
+    <input type="submit" value="Enviar Pedido" />
+   </form>
+
+</body>
+</html>
